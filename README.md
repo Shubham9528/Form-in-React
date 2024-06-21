@@ -3,7 +3,10 @@
 This project demonstrates how to create a React form, submit data to an Express server, and store it in a PostgreSQL database. The form includes various input types such as text fields, radio buttons, a file upload, and more.
 
 ## 🚀 Getting Started
+![1](https://github.com/Shubham9528/Form-in-React/assets/81708211/c60aed6e-864d-403f-a770-1a4214f02d09)
+![2](https://github.com/Shubham9528/Form-in-React/assets/81708211/6b97a62c-fb6a-4774-9c1d-7e1db4694af0)
 
+![3](https://github.com/Shubham9528/Form-in-React/assets/81708211/d76434c6-5e66-4f52-a96f-57fcf3f79309)
 
 
 ### 📚 Prerequisites
