@@ -14,7 +14,7 @@ Make sure you have the following software installed on your system:
 - [PostgreSQL](#PostgreSQL)
 - [npm](#npm)
 
-33🛠 Installation
+##🛠 Installation
 
 Clone the repository:
 
