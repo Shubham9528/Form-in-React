@@ -10,9 +10,9 @@ This project demonstrates how to create a React form, submit data to an Express 
 
 Make sure you have the following software installed on your system:
 
-- [Node.js](#Node.js)#(Node.js
-- [PostgreSQL](#PostgreSQL)PostgreSQL
-- [npm](#npm)npm
+- [Node.js](#Node.js)
+- [PostgreSQL](#PostgreSQL)
+- [npm](#npm)
 
 33🛠 Installation
 
