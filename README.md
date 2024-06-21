@@ -10,40 +10,45 @@ This project demonstrates how to create a React form, submit data to an Express 
 
 Make sure you have the following software installed on your system:
 
-#(Node.js
-PostgreSQL
-npm
+- [Node.js](#Node.js)#(Node.js
+- [PostgreSQL](#PostgreSQL)PostgreSQL
+- [npm](#npm)npm
 
 🛠 Installation
 Clone the repository:
 
 bash
-Copy code
+```
 git clone https://github.com/your-username/react-express-postgres-form.git
 cd react-express-postgres-form
+```
 Install server dependencies:
 
 bash
-Copy code
+```
 cd server
 npm install
+```
 Install client dependencies:
 
 bash
-Copy code
+```
 cd ../client
 npm install
-🗄 Database Setup
+```
+##🗄 Database Setup
+
 Create the PostgreSQL database and table:
 
 Open your PostgreSQL client (like pgAdmin or psql) and run the following SQL commands:
 
 sql
-Copy code
+```
 CREATE DATABASE "register-form";
+```
 
 \c register-form;
-
+```
 CREATE TABLE register (
     id SERIAL PRIMARY KEY,
     first_name VARCHAR(50),
@@ -56,6 +61,7 @@ CREATE TABLE register (
     choice VARCHAR(10),
     about TEXT
 );
+```
 Update database configuration:
 
 In server/server.js, update the Client configuration with your PostgreSQL credentials if they differ.
