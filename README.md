@@ -135,7 +135,7 @@ json
 }
 ```
 ## 📦 Dependencies Explained
-### Aaxios
+### Axios
 Axios is a promise-based HTTP client for the browser and Node.js. It makes it easy to send asynchronous HTTP requests to REST endpoints and perform CRUD operations. In this project, Axios is used to send form data to the Express server.
 
 bash
