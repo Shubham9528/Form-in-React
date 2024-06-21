@@ -14,7 +14,7 @@ Make sure you have the following software installed on your system:
 - [PostgreSQL](#PostgreSQL)
 - [npm](#npm)
 
-##🛠 Installation
+## 🛠 Installation
 
 Clone the repository:
 
@@ -37,7 +37,7 @@ bash
 cd ../client
 npm install
 ```
-##🗄 Database Setup
+## 🗄 Database Setup
 
 Create the PostgreSQL database and table:
 
@@ -67,7 +67,7 @@ Update database configuration:
 
 In server/server.js, update the Client configuration with your PostgreSQL credentials if they differ.
 
-🚀 Running the Application
+## 🚀 Running the Application
 Start the Express server:
 
 bash
@@ -86,7 +86,7 @@ cd ../client
 npm start
 The client will start on http://localhost:3000.
 ```
-##📝 Form Fields
+## 📝 Form Fields
 The form includes the following fields:
 ```
 First Name
@@ -100,7 +100,7 @@ Choice (1, 2, 3)
 About (textarea)
 File upload (Resume)
 ```
-##🔧 Code Overview
+## 🔧 Code Overview
 Client (React)
 App.js: The main application component that renders the form.
 Form.jsx: Contains the form component with state management and form submission logic.
@@ -128,11 +128,11 @@ json
   "file": null
 }
 ```
-##🤝 Contributing
+## 🤝 Contributing
 Contributions are welcome! Please open an issue or submit a pull request for any improvements or bug fixes.
 
-##📜 License
+## 📜 License
 This project is licensed under the -- License.
 
-##📞 Contact
+## 📞 Contact
 For any questions or support, please reach out to shubhamshindel9528@gmail.com.
