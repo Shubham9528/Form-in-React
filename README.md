@@ -102,11 +102,17 @@ File upload (Resume)
 ```
 ## 🔧 Code Overview
 Client (React)
+
 App.js: The main application component that renders the form.
+
 Form.jsx: Contains the form component with state management and form submission logic.
+
 Server (Express)
+
 server.js: Sets up the Express server, connects to the PostgreSQL database, and defines the /submit endpoint to handle form submissions.
+
 🔗 API Endpoint
+
 POST /submit
 
 This endpoint receives form data from the client and inserts it into the PostgreSQL database.
